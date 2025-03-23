@@ -1,11 +1,11 @@
-
-
+# checking this after two years. not sure if this code works :(
+# this code is for making a maze solver in python using genetic algorithm 
 from typing import List, Callable, Tuple
 from random import randint, randrange, random
 from pyamaze import maze, agent, COLOR
 import matplotlib.pyplot as plt
 
-# this code is supposed to solve a n by n maze that we will create using pyamaze package from python. the diea is to generate a population, evaluate fitness parameter andsort the population in such a manner that the highest fitness values will be the first few enteries of the population. Once we got the sorted population we will use elitism and take the first two enteries of population then do crossover mutation and use these two in the next generation the ngenerate the rest of the enteries it will keep repeating this till max generation number is reached and a solution is found. The solution  needs to have fitness>250 and infeasible steps = 0. it will then print the path of the solution. reverse the solution list and then display it on the maze.
+# this code is supposed to solve a n by n maze that we will create using pyamaze package from python. the idea is to generate a population, evaluate fitness parameter andsort the population in such a manner that the highest fitness values will be the first few enteries of the population. Once we got the sorted population we will use elitism and take the first two enteries of population then do crossover mutation and use these two in the next generation the ngenerate the rest of the enteries it will keep repeating this till max generation number is reached and a solution is found. The solution  needs to have fitness>250 and infeasible steps = 0. it will then print the path of the solution. reverse the solution list and then display it on the maze.
 n = 10
 Num_col = n
 Num_rows = n
